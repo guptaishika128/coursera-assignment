@@ -1,9 +1,21 @@
-h1 {
+.header {
   padding: 20px;
   text-align: center;
 }
-@media screen and (max-width: 600px) {
+@media (min-width: 992px) {
+    .column {
+      width: 33.33%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .column {
+      width: 50%;
+    }
+  }  
+
+@media (max-width: 767px) {
     .column {
       width: 100%;
     }
-  }
+  }  
